@@ -1,0 +1,4 @@
+ServerGroup 27
+ChannelGroup 13 in Channel 19
+
+requestSetClientChannelGroup(uint64 serverConnectionHandlerID, const uint64* channelGroupIDArray, const uint64* channelIDArray, const uint64* clientDatabaseIDArray, int arraySize, const char* returnCode);

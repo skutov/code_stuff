@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{56e78e02-5cb0-495c-a65e-cf82db4f0521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{55399150-543e-44f1-a88f-c1c5d889f802}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\plugin.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\clientlib_publicdefinitions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ts3_functions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plugin.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plugin_definitions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\public_definitions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\public_errors.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\public_errors_rare.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\public_rare_definitions.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
